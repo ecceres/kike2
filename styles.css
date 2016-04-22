@@ -1,0 +1,65 @@
+
+html {background: #FCFCFC; color: #333; font-family: 'Comic Sans MS' ; height: 100%;}
+body {height: 100%; margin: 0 auto; max-width: 960px; padding: 10px}
+a, #habilidades dl dd {-webkit-transition: all 0.15s}
+
+
+
+header.datos_principales {margin-bottom: 10px; overflow: hidden;}
+.nombre {font-size: 2.7em; font-weight: bold; padding: 5px 0 5px 10px;}
+.carrera {background: #999; color: #FCFCFC; font-weight: normal; margin: 4px 0 13px; padding: 5px 5px 5px 10px}
+.datos_de_contacto {list-style: none; margin-bottom: 15px; overflow: hidden;}
+.datos_de_contacto li {border-right: 2px solid #ccc; display: inline; float: left; font-size: 0.8em; padding: 0.5px 0; text-align: center; width: 22%; overflow: hidden}
+.datos_de_contacto li:last-child {border: none}
+.datos_de_contacto a {color: #000;}
+.datos_de_contacto a:hover {background-color: #eee; text-decoration: none}
+
+
+
+section {font-size: 0.9em; margin: 30px 0; overflow: hidden; }
+section h1 {border-left: 2px solid #DDD; font-size: 1.25em; margin-bottom: 10px; padding-left: 5px; text-transform: uppercase;}
+section p {line-height: 1.5em; padding: 0 20px 5px;}
+
+#habilidades dl {margin-left: 30px;}
+#habilidades dl dt {clear: left; display: inline; float: left; margin: 10px 5px 10px 0; padding: 2px; text-align: right; width: 150px;}
+#habilidades dl dd {background: #dfdfdf; float: left; font-size: 0.8em; margin: 10px 4px; padding: 4px, box-shadow:  0px 1px 1px 0px}
+#habilidades dl dd:hover {background-color: #ccc; -webkit-box-shadow: inset 0px 2px 1px 1px; box-shadow: inset 0px 2px 1px 1px}
+
+#experiencias article {margin: 15px 0 37px 95px; padding-left: 5px; position: relative; border: 1px solid #FCFCFC}
+#experiencias article:last-child {margin-bottom: 0}
+#experiencias article:hover {border: 1px dotted #ddd; background: #fefefe}
+#experiencias article h1 {border: none; font-size: 1.2em; font-style: italic; font-weight: bold; padding: 0; text-transform: none;}
+#experiencias article h1 a {color: #333; text-decoration: none}
+#experiencias article h1 a:hover {background-color: #333; color: #eee} 
+#experiencias article h1 span {color: #777; font-size: 0.8em; font-weight: normal;}
+#experiencias article h2 {background: #eee; display: inline; font-size: 0.9em; font-weight: normal; padding: 3px;}
+#experiencias article .empezar, #experiencias article .terminar {background: #fff; border-top: 1px dashed #ddd; font-size: 0.75em; left: -80px; padding: 4px 0; position: absolute; text-align: center; top: 19px;  width: 60px;}
+#experiencias article .terminar {top: 0; border: none}
+#experiencias article p {font-size: 0.9em; line-height: 22px; margin: 10px 0 0; padding-left: 0;}
+
+#educacion h2 {padding-left: 20px;}
+#educacion p {padding-top: 5px;}
+
+#infoAdic ul {font-size: 0.9em; margin-left: 20px;}
+#infoAdic ul li {margin: 10px 0; list-style: circle inside none; cursor: default}
+#infoAdic ul li:hover {list-style: disc inside none;}
+#infoAdic ul li a {color: #555}
+
+
+@media screen and (max-width:768px) {
+  .datos_de_contacto li {font-size: 0.7em;}
+}
+
+@media screen and (max-width:680px) {
+  #habilidades dl dt {display: block; float: none; margin: 0; text-align: left;}
+}
+
+@media screen and (max-width:500px) {
+  .datos_de_contacto li {border-right: medium none; display: block; float: none; font-size: 1em; overflow: hidden; padding: 6px 10px; text-align: left; width: auto;}
+}
+
+@media screen and (max-width:480px) {
+  #experiencias article {margin: 40px 0 37px;}
+  #experiencias article .start, #experiencias article .end {left: 0; top: -25px; border: none; border-right: 1px dashed #ddd;}
+  #experiencias article .end {left: 61px; top: -25px; border: none}
+}
