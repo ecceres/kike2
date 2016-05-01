@@ -1,0 +1,35 @@
+body {
+	
+    font-family: 'Open Sans', Arial, Tahoma;
+    font-weight: 200;
+    font-size: 14px;
+    color: #363636;
+    background: #EDEDED;
+    background-color: lightblue;
+
+ } 
+
+ table
+{
+    border: 1px dashed black;
+    }
+
+ td {
+
+ 	padding: 2px;
+    border: 1px solid #E88741;
+ 	
+ }  
+ h1 {
+    letter-spacing: 1px;
+    font-style: oblique;
+}
+
+ b {
+
+ 	text-decoration: underline;
+
+ }
+li{
+    text-align: justify;
+}
